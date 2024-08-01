@@ -1,0 +1,48 @@
+body {
+  background-color: #333533;
+}
+
+.divParantButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.buttonChild-1 {
+  padding: 10px;
+  background-color: #f5cb5c;
+  border: solid 2px #dfa915;
+  border-radius: 5px;
+}
+
+.buttonChild-1:hover {
+  transition: 0.3s;
+  background-color: #e8eddf;
+  border: solid 2px #c1c2c0;
+}
+
+.divParantDivDiv {
+  display: flex;
+  justify-content: center;
+}
+/*  */
+.divParantDivX {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+.divChildX-1 {
+  background-color: white;
+  border: solid 2px red;
+  flex: 1 0 10%;
+  box-sizing: border-box;
+}
+/*  */
+.divChildX-1.hovered {
+  background-color: black;
+}
